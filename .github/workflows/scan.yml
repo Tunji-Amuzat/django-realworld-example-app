@@ -27,4 +27,4 @@ jobs:
             -Dsonar.projectKey=test-project
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # 4d7e0afddbb833917b0d468cd0004fd6fe1534ba
-          SONAR_HOST_URL: http://sonarqube.paycardlesspoint.com # ${{ secrets.SONAR_HOST_URL }} # https://sonarcloud.io # 
+          SONAR_HOST_URL: https://sonarqube.paycardlesspoint.com # ${{ secrets.SONAR_HOST_URL }} # https://sonarcloud.io # 
