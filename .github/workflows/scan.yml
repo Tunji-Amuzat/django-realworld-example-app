@@ -20,7 +20,7 @@ jobs:
         #   fetch-depth: 0
 
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v1
+        uses: SonarSource/sonarqube-scan-action@v4.1.0
         with:
           projectBaseDir: .
           args: >
