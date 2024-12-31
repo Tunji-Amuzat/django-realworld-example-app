@@ -25,7 +25,7 @@ jobs:
           projectBaseDir: .
           args: >
             -Dsonar.organization=Tunji-Amuzat
-            -Dsonar.projectKey=django-realworld-example-app
+            -Dsonar.projectKey=Tunji-Amuzat_django-realworld-example-app
         env:
           SONAR_TOKEN: 4d7e0afddbb833917b0d468cd0004fd6fe1534ba # ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io # ${{ vars.SONAR_HOST_URL }}
