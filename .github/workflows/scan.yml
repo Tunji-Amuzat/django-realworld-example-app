@@ -2,7 +2,7 @@ name: CI-CD Pipeline for DEV
 
 on:
   push:
-    branches: [ "dev"]
+    branches: [ "master"]
 
 permissions:
     id-token: write
